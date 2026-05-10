@@ -1,5 +1,6 @@
-package com.campuspal;
+package com.campuspal.controller;
 
+import com.campuspal.App;
 import java.io.IOException;
 import javafx.fxml.FXML;
 
