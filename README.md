@@ -99,8 +99,26 @@ mvn clean javafx:run
  
 ## 🗺️ Development Roadmap
  
-| Stage | Feature | Status |
-|-------|---------|--------|
+Phase 1 (coursework MVP) runs on a weekly schedule to the **Jan 2, 2027** submission deadline. Each item is tracked as a GitHub issue.
+
+| Week | Date | Feature | Issues | Status |
+|------|------|---------|--------|--------|
+| - | - | Project scaffold + Maven/JavaFX setup, MVC restructure | #16-17 | ✅ Done |
+| 1 | Oct 24 | Figma designs for all screens + Login screen UI | #1-9 | 🔄 In progress |
+| 2 | Oct 31 | Registration, User model, BCrypt hashing, input validation | #10-13 | ⏳ Planned |
+| 3 | Nov 7 | Home page + nav, local JSON storage, ticket submission | #14-15, #18-19 | ⏳ Planned |
+| 4 | Nov 14 | Ticket lifecycle + ticket log, SMTP email notifications | #20-23 | ⏳ Planned |
+| 5 | Nov 21 | Taylor's website scraper (JSoup) + data curation | #24-26 | ⏳ Planned |
+| 6 | Nov 28 | FAQ page, chatbot UI + LangChain4j integration | #27-30 | ⏳ Planned |
+| 7 | Dec 5 | Chatbot methods + RAG over scraped content (**core feature-complete**) | #31-33 | ⏳ Planned |
+| 8 | Dec 12 | Integration testing | #34 | ⏳ Planned |
+| 9 | Dec 19 | Bug fixing / catch-up buffer | #35 | ⏳ Planned |
+| 10 | Dec 26 | Stretch (if ahead): role-based routing, admin tickets + FAQ CRUD, UI polish | #37-42 | ⏳ Planned |
+| 11 | Jan 2 | Final polish, demo run-through, submission | #36 | ⏳ Planned |
+
+**Phase 2 (portfolio extension, Jan 9 - Mar 27, 2027):** migrate to a full-stack app with a Spring Boot + PostgreSQL backend (Docker), JWT auth, REST endpoints for tickets and FAQs, and server-side chatbot calls (#43-66).
+ 
+-------|---------|--------|
 | 1 | Project scaffold + Maven/JavaFX setup | ✅ Done |
 | 2 | MVC structure + Login screen UI | 🔄 In progress |
 | 3 | Registration + JSON user storage + BCrypt hashing | ⏳ Planned |
